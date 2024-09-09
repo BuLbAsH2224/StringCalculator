@@ -96,7 +96,7 @@ double StringToDouble(std::string str) {
         return x;
     }
     else  if (newStr == "(-PI)") {
-        x = 3.1415926535;
+        x = -3.1415926535;
         return x;
     }
     else  if (newStr.find("(") != std::string::npos) {
